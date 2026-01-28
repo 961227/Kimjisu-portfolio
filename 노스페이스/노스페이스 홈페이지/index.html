@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NORTH FACE</title>
+
+    <!-- BOXICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--============== HEADER ==============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="img/노스페이스로고.png" alt="logo">
+                <!-- <i class='bx bxs-watch nav__logo-icon'></i>Rolex -->
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link">New</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--============== CART ==============-->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img class="cart__img" src="img/패딩1.jpg" alt="" >
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">BARUNTSE DOWN JACKET</h3>
+                    <span class="cart__price">479,200원</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img class="cart__img" src="img/패딩2.jpg" alt="" >
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">BARUNTSE DOWN JACKET</h3>
+                    <span class="cart__price">479,200원</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img class="cart__img" src="img/신제품2-removebg-preview.png" alt="" >
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">TNF FISHERMAN BEANIE EX</h3>
+                    <span class="cart__price">24,650원</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="cart__prices">
+            <span class="cart__prices-item">3 items</span>
+            <span class="cart__prices-total">983,050원</span>
+        </div>
+    </div>
+
+    <!--============== MAIN ==============-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__img-bg">
+                    <img src="img/메인1.png" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="http://www.facebook.com" target="_blank" class="home__social-link">
+                        Facebook
+                    </a>
+                    <a href="http://twitter.com" target="_blank" class="home__social-link">
+                        Twitter
+                    </a>
+                    <a href="http://www.instagram.com" target="_blank" class="home__social-link">
+                        Instagram
+                    </a>
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">CHALLENGE  <br> AIR DOWN COAT 2023</h1> <br>
+                    <p class="home__description">
+                        포근하게 완성하는 롱다운 스타일을 만나보세요 
+                    </p> <br><br>
+                    <!-- <span class="home__price">$1245</span> -->
+
+                    <div class="home__btns">
+                        <a href="#" class="button button--gray button--small">
+                            Discover
+                        </a>
+                        <button class="button home__button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURED ====================-->
+        <section class="featured section container" id="featured">
+            <h2 class="section__title">Featured</h2>
+            <div class="featured__container grid">
+                <article class="featured__card">
+                    <span class="featured__tag">Sale</span>
+                    <img src="img/2.jpg" class="featured__img" alt="1">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">W'S GTX ECO-HIKE JACKET</h3>
+                        <span class="featured__price">332,100원</span>
+                    </div>
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Sale</span>
+                    <img src="img/3.jpg" class="featured__img" alt="1">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">M'S GTX ECO-HIKE JACKET</h3>
+                        <span class="featured__price">323,100원</span>
+                    </div>
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+
+                <article class="featured__card">
+                    <span class="featured__tag">Sale</span>
+                    <img src="img/4.jpg" class="featured__img" alt="1">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">KANTEGA GTX JACKET SE</h3>
+                        <span class="featured__price">679,900원</span>
+                    </div>
+                    <button class="button featured__button">ADD TO CART</button>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== STORY ====================-->
+        <section class="story section container">
+            <div class="story__container grid">
+                <div class="story__data">
+                    <h2 class="section__title story__section-title">
+                        Our Story
+                    </h2>
+
+                    <h1 class="story__title">
+                        겨울을 더 따뜻하게 <br> 더 스타일리쉬하게
+                    </h1>
+
+                    <p class="story__description">
+                        포근하게 완성되는 롱다운 스타일을 만나보세요
+                    </p>
+
+                    <a href="#" class="button button--small">Discover</a>
+                </div>
+
+                <div class="story__images">
+                    <img src="img/Rectangle 31.png" class="story__img" alt="story">
+                    <div class="story__square"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section container" id="products">
+            <h2 class="section__title">Products</h2>
+
+            <div class="products__container grid">
+                <article class="products__card">
+                    <img src="img/패딩1.jpg" class="products__img" alt="p1">
+                    <h3 class="products__title">BARUNTSE DOWN JACKET</h3>
+                    <span class="products__price">479.200원</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="img/패딩2.jpg" class="products__img" alt="p1">
+                    <h3 class="products__title">BARUNTSE DOWN JACKET</h3>
+                    <span class="products__price">479,200원/span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="img/패딩3.jpg" class="products__img" alt="p1">
+                    <h3 class="products__title">BARUNTSE DOWN JACKET</h3>
+                    <span class="products__price">479,200원</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="img/패딩4.jpg" class="products__img" alt="p1">
+                    <h3 class="products__title">M'S 1996 ECO NUPTSE JACKET</h3>
+                    <span class="products__price">399,900원</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+                <article class="products__card">
+                    <img src="img/패딩5.jpg" class="products__img" alt="p1">
+                    <h3 class="products__title">M'S 1996 ECO NUPTSE JACKET</h3>
+                    <span class="products__price">399,900원</span>
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section container">
+            <div class="testimonial__container grid">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                PREMIUM DOWN
+                            </p>
+                            <h3 class="testimonial__date">어떤 날씨라도 하나면 충분하다.</h3>
+
+                            <div class="testimonial__perfil">
+                                <!-- <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__perfil-img"> -->
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">언제 어디서나 잃지 않는 따뜻함
+                                        프리미엄 다운의 </span>
+                                    <span>특별한 이유</span>
+                                    <!-- <span class="testimonial__perfil-detail">Director of a company</span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                They are the best watches that one acquires, also they are always with the latest
+                                news and trends, with a very comfortable price and especially with the attention
+                                you receive, they are always attentive to your questions.
+                            </p>
+                            <h3 class="testimonial__date">March 27. 2021</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Samantha Mey</span>
+                                    <span class="testimonial__perfil-detail">Director of a company</span>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                
+                            </p>
+                            <h3 class="testimonial__date"></h3>
+
+                            <!-- <div class="testimonial__perfil">
+                                <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name"></span>
+                                    <span class="testimonial__perfil-detail"></span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <!-- <div class="swiper-button-next">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-left-arrow-alt'></i>
+                    </div> -->
+                </div>
+
+                <div class="testimonial__images">
+                    <div class="testimonial__square"></div>
+                    <img src="img/차은우1.png" alt="" class="testimonial__img">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section container" id="new">
+            <h2 class="section__title">New Arrivals</h2>
+            <div class="new__container">
+                <div class="swiper new-swiper">
+                    <div class="swiper-wrapper">
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="img/신제품1-removebg-preview.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">W'S NUPTSE SHORT JACKET</h3>
+                                <span class="new__price">269,900원</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="img/신제품2-removebg-preview.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">TNF FISHERMAN BEANIE EX</h3>
+                                <span class="new__price">24,650원</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="img/신제품3-removebg-preview.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">RHINO</h3>
+                                <span class="new__price">209,900원</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                        <article class="new__card swiper-slide">
+                            <span class="new__tag">New</span>
+                            <img src="img/신제품4-removebg-preview.png" alt="" class="new__img">
+
+                            <div class="new__data">
+                                <h3 class="new__title">CHALLENGE  DOWN COAT</h3>
+                                <span class="new__price">459,900원</span>
+
+                                <button class="button new__button">ADD TO CART</button>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+         <!--==================== NEWSLETTER ====================-->
+         <section class="newsletter section container">
+            <div class="newsletter__bg grid">
+                <div>
+                    <h2 class="newsletter__title">추첨 이벤트 <br> </h2>
+                    <p class="newsletter__description">
+                        이메일을 적으면 추첨을 통해 경품을 드립니다.
+                    </p>
+                </div>
+
+                <form action="" class="newsletter__subscribe">
+                    <input type="email" placeholder="Enter your email" class="newsletter__input">
+                    <button class="button">
+                        SUBSCRIBE
+                    </button>
+                </form>
+            </div>
+         </section>
+
+    </main>
+
+    <!--============== FOOTER ==============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <h3 class="footer__title">Our information</h3>
+
+                <ul class="footer__list">
+                    <li>1234 - Peru</li>
+                    <li>La Libertad 43210</li>
+                    <li>123-456-789</li>
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">About Us</h3>
+
+                <ul class="footer__link">
+                    <li>
+                        <a href="#" class="footer__link">Support Center</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Customer Support</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Copy Right</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Product</h3>
+
+                <ul class="footer__link">
+                    <li>
+                        <a href="#" class="footer__link">Road bikes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Mountain bikes</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Electric</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">accesories</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Social</h3>
+
+                <ul class="footer__social">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </li>
+                 
+                    
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; 2023 Kimjisu. All rights reserved</span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
